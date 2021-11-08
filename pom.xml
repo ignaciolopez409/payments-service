@@ -8,7 +8,7 @@
 		<relativePath /> <!-- lookup parent from repository test -->
 	</parent>	
 	<groupId>uy.edu.ort.devops</groupId>
-	<artifactId>payments-service-obligatorio</artifactId>
+	<artifactId>payments-service</artifactId>
 	<version>0.0.5-SNAPSHOT</version>
 	<name>payments-service</name>
 	<description>Proyecto Payments Service Obligatorio</description>	
