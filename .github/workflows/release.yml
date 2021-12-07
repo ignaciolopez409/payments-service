@@ -51,7 +51,7 @@ jobs:
       - run: |
           POM_VERSION="${{ needs.BUILD_AND_PUSH_IMAGE.outputs.POM_VERSION }}"
           BRANCH="${{ needs.BUILD_AND_PUSH_IMAGE.outputs.BRANCH }}"
-          PROJECT="payments"
+          PROJECT="orders"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           sed "s/tag: *.*/tag: $POM_VERSION/" -i environments/$BRANCH/values/$PROJECT.yaml
